@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        "bg-primary": "#f9f5f2",
-        "bg-secondary": "#ffffff",
-        "bg-tertiary": "#91a8ed",
+        primary: "#f9f5f2",
+        secondary: "#ffffff",
+        tertiary: "#91a8ed",
         "f-primary": "#282825",
         "f-secondary": "#52514e",
         "btn-yellow": "#f7cb45",
