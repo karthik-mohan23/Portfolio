@@ -1,6 +1,12 @@
+import Hero from "./Hero";
 import Navbar from "./Navbar";
 
 const Home = () => {
-  return <Navbar />;
+  return (
+    <>
+      <Navbar />
+      <Hero />
+    </>
+  );
 };
 export default Home;
