@@ -14,7 +14,7 @@ const About = () => {
               <img src={profilePhoto} alt="" />
             </div>
             <div>
-              <h3 className="text-[1rem] font-medium md:text-xl">
+              <h3 className="text-[1rem] font-medium md:text-2xl">
                 Karthik Mohan
               </h3>
               <p className=" flex items-center gap-2">
@@ -26,25 +26,33 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="py-10 text-f-primary text-[1.125rem]">
-            <p className=" mb-4">
-              <span className="">Welcome</span> to my corner of the web! I'm a{" "}
-              <span className="text-tertiary">graduate</span> in{" "}
-              <span className="text-tertiary">
-                Electrical and Electronics Engineering
-              </span>{" "}
-              with a lifelong passion for technology.
+          <div className="py-14 px-5 lg:px-36 text-f-primary text-xl font-medium  leading-9">
+            <p className="mb-6">
+              Welcome to my corner of the web! I'm a graduate in Electrical and
+              Electronics Engineering.
             </p>
-            <p className="  mb-4">
-              In this ever-evolving landscape, I embrace the challenges that
-              come with keeping up with the latest trends and technologies.
+            <p className="mb-6">
+              Ever since my young age, I've been fascinated by technology. So,
+              I've decided to take the leap and pursue a career in web
+              development.I thinks it's like a superpower to build something
+              that other's can experience.
             </p>
-            <p className=" ">
-              I am constantly on the lookout for opportunities to expand my
-              skill set and broaden my knowledge, ensuring that I stay at the
-              forefront of this exciting industry. The web is a canvas where I
-              can express my creativity, and I am driven to leave my mark by
-              pushing the boundaries of what's possible.
+            <p className="mb-6">
+              The unique combination of creativity, logic, technology, and the
+              never-ending stream of new discoveries drives my excitement and
+              passion for web development.
+            </p>
+            <p className="mb-6">
+              I enjoy solving problems and building things that looks beautiful
+              using code.
+            </p>
+            <p className="mb-2">
+              I look forward to learning and growing in order to build products
+              that are performant, secure, and have the power to enhance
+              people's lives.
+            </p>
+            <p className="text-[1rem] text-blue-400">
+              #music #football #yoga #gym #reading #drawing
             </p>
           </div>
         </div>
