@@ -34,8 +34,7 @@ const About = () => {
             <p className="mb-6">
               Ever since my young age, I've been fascinated by technology. So,
               I've decided to take the leap and pursue a career in web
-              development.I thinks it's like a superpower to build something
-              that other's can experience.
+              development.
             </p>
             <p className="mb-6">
               The unique combination of creativity, logic, technology, and the

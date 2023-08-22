@@ -18,8 +18,8 @@ const Hero = () => {
           </h1>
           <p className="text-f-secondary text-xl font-medium leading-8 max-w-xl py-3 mb-6">
             I'm a self motivated
-            <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block mx-2">
-              <span class="relative text-white">full</span>
+            <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block mx-2">
+              <span className="relative text-white">full</span>
             </span>{" "}
             stack developer who loves playing around with new technologies.
             Since it's also my favorite hobby, I find pure enjoyment in every
