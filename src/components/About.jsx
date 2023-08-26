@@ -3,7 +3,7 @@ import profilePhoto from "../assets/insta.png";
 
 const About = () => {
   return (
-    <section className="bg-primary py-6">
+    <section className="bg-primary pt-6">
       <div className="w-[90%] max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-5xl text-f-primary font-semibold pb-6">
           About me
@@ -26,22 +26,22 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="py-14 px-5 lg:px-36 text-f-primary text-xl font-medium  leading-9">
-            <p className="mb-6">
+          <div className="py-8 px-5 lg:px-36 text-f-primary text-xl font-medium  leading-9">
+            <p className="mb-2">
               Welcome to my corner of the web! I'm a graduate in Electrical and
               Electronics Engineering.
             </p>
-            <p className="mb-6">
+            <p className="mb-2">
               Ever since my young age, I've been fascinated by technology. So,
               I've decided to take the leap and pursue a career in web
               development.
             </p>
-            <p className="mb-6">
+            <p className="mb-2">
               The unique combination of creativity, logic, technology, and the
               never-ending stream of new discoveries drives my excitement and
               passion for web development.
             </p>
-            <p className="mb-6">
+            <p className="mb-2">
               I enjoy solving problems and building things that looks beautiful
               using code.
             </p>
