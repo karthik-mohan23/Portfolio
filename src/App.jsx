@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Home from "./components/Home";
+import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Home />
       <About />
       <Skills />
+      <Projects />
     </>
   );
 }
@@ -19,5 +21,7 @@ export default App;
       <About/>
       <Skills/>
       <Projects/>
+        -odd project
+        -even project
       <Contact/>
       */

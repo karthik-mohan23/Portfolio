@@ -1,7 +1,6 @@
 import { technologies } from "../utils/constants";
 
 const Skills = () => {
-  console.log(technologies);
   return (
     <section className="bg-primary py-20">
       <div className="w-[90%] max-w-7xl mx-auto">
@@ -26,18 +25,6 @@ const Skills = () => {
         </div>
       </div>
     </section>
-    // /=================
-    // <section className="bg-primary">
-    //   <h2 className="text-3xl md:text-5xl text-f-primary font-semibold pb-6">
-    //     Skills
-    //   </h2>
-    //   <div className="w-[90%] max-w-7xl mx-auto bg-white">
-    //     <div className="border border-f-primary">
-    //       <div></div>
-
-    //     </div>
-    //   </div>
-    // </section>
   );
 };
 export default Skills;
