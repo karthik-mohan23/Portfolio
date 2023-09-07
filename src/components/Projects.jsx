@@ -1,3 +1,6 @@
+import EvenProject from "./EvenProject";
+import OddProject from "./OddProject";
+
 const Projects = () => {
   return (
     <section name="projects" className="bg-primary py-20">
@@ -6,14 +9,23 @@ const Projects = () => {
           Projects
         </h2>
         <div className="border border-f-primary px-10 bg-secondary py-20">
-          <div className="flex flex-wrap justify-between gap-10">
-            <div className="w-80 h-40 border  border-f-primary "></div>
-            <div>
-              <h1>Title</h1>
-              <p>Description</p>
-              <p>Technologies</p>
-            </div>
-          </div>
+          <OddProject
+            title="iCrave"
+            subTitle="food delivery app that lets you order your favorite food"
+            description="A food delivery app made with config driven ui using swiggy's live API"
+            technologies={[
+              "React",
+              "Tailwind",
+              "Redux-Toolkit",
+              "React Router",
+            ]}
+          />
+          <EvenProject
+            title="iGnite"
+            subTitle="create your own create-react-app"
+            description="build your own create-react-app"
+            technologies={["React"]}
+          />
         </div>
       </div>
     </section>
