@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-
+import Logo from "../assets/logo.png";
 const Navbar = () => {
   return (
     <header className="bg-primary">
@@ -7,7 +7,7 @@ const Navbar = () => {
         <nav className=" w-[90%] max-w-7xl mx-auto py-6 flex items-center justify-between  ">
           <h3 className="hover:cursor-pointer">
             <Link to="home" smooth={true}>
-              KM
+              <img src={Logo} alt="brand logo" className="w-12" />
             </Link>
           </h3>
           <ul className="flex items-center gap-8 md:gap-11 md:text-xl font-medium">

@@ -3,13 +3,13 @@ import profilePhoto from "../assets/insta.png";
 
 const About = () => {
   return (
-    <section name="about" className="bg-primary py-20">
+    <section name="about" className="bg-primary py-24">
       <div className="w-[90%] max-w-7xl mx-auto ">
         <h2 className="text-3xl md:text-5xl text-f-primary font-semibold pb-6">
           About me
         </h2>
-        <div className="border border-f-primary px-10 bg-secondary">
-          <div className="flex  border-b border-f-primary gap-2 py-7 items-center">
+        <div className="border border-f-primary rounded-lg px-10 bg-secondary">
+          <div className="flex  border-b border-f-primary gap-2 py-7  items-center  lg:px-32">
             <div className="w-20 md:w-32">
               <img src={profilePhoto} alt="" />
             </div>

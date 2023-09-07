@@ -1,6 +1,6 @@
 const EvenProject = ({ title, subTitle, img, description, technologies }) => {
   return (
-    <div className="flex flex-wrap justify-between  max-w-5xl mx-auto mb-10">
+    <div className="flex flex-wrap-reverse justify-between  max-w-5xl mx-auto mb-10">
       <div>
         <h1>{title}</h1>
         <h4>{subTitle}</h4>

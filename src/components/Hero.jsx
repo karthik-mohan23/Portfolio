@@ -4,11 +4,12 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
 } from "react-icons/ai";
+import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
-    <main className="bg-primary pt-8 md:pt-8">
-      <section className="w-[90%] min-h-screen max-w-7xl mx-auto   md:flex justify-between items-center">
+    <main className="bg-primary pt-40 md:pt-8">
+      <section className="w-[90%] min-h-screen max-w-7xl mx-auto   md:flex  justify-between items-center">
         <div>
           <h3 className="text-f-secondary text-xl font-medium pt-5 ">
             Hi, my name is
@@ -26,9 +27,11 @@ const Hero = () => {
             facet of my work :)
           </p>
           <div className=" bg-f-primary text-xl   rounded-full border border-f-primary  relative w-40 h-14">
-            <button className="absolute  bg-btn-yellow w-full h-full font-semibold text-f-primary rounded-full tracking-widest -top-1 -left-1 hover:-top-2 hover:-left-2 duration-300">
-              Contact
-            </button>
+            <Link to="contact" smooth={true}>
+              <button className="absolute  bg-btn-yellow w-full h-full font-semibold text-f-primary rounded-full tracking-widest -top-1 -left-1 hover:-top-2 hover:-left-2 duration-300">
+                Contact
+              </button>
+            </Link>
           </div>
         </div>
         <div>
@@ -40,9 +43,18 @@ const Hero = () => {
             />
           </div>
           <div className="flex items-center justify-center gap-12 ">
-            <AiOutlineGithub size={30} />
-            <AiFillLinkedin size={30} />
-            <AiFillTwitterCircle size={30} />
+            <AiOutlineGithub
+              size={30}
+              className="hover:cursor-pointer hover:-translate-y-1 duration-300"
+            />
+            <AiFillLinkedin
+              size={30}
+              className="hover:cursor-pointer hover:-translate-y-1 duration-300"
+            />
+            <AiFillTwitterCircle
+              size={30}
+              className="hover:cursor-pointer hover:-translate-y-1 duration-300"
+            />
           </div>
         </div>
       </section>
