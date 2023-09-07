@@ -2,7 +2,7 @@ import { technologies } from "../utils/constants";
 
 const Skills = () => {
   return (
-    <section className="bg-primary py-20">
+    <section name="skills" className="bg-primary py-20">
       <div className="w-[90%] max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-5xl text-f-primary font-semibold pb-6">
           Skills

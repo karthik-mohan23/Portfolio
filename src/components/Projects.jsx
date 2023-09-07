@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <section className="bg-primary py-20">
+    <section name="projects" className="bg-primary py-20">
       <div className="w-[90%] max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-5xl text-f-primary font-semibold pb-6">
           Projects

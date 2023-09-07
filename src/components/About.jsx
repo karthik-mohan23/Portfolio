@@ -3,8 +3,8 @@ import profilePhoto from "../assets/insta.png";
 
 const About = () => {
   return (
-    <section className="bg-primary pt-6">
-      <div className="w-[90%] max-w-7xl mx-auto">
+    <section name="about" className="bg-primary py-20">
+      <div className="w-[90%] max-w-7xl mx-auto ">
         <h2 className="text-3xl md:text-5xl text-f-primary font-semibold pb-6">
           About me
         </h2>

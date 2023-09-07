@@ -7,9 +7,9 @@ import {
 
 const Hero = () => {
   return (
-    <main className="bg-primary min-h-screen">
-      <section className="w-[90%] max-w-7xl mx-auto py-16 md:py-28 md:flex justify-between items-center">
-        <div className="mb-16 lg:mb-0 ">
+    <main className="bg-primary pt-8 md:pt-8">
+      <section className="w-[90%] min-h-screen max-w-7xl mx-auto   md:flex justify-between items-center">
+        <div>
           <h3 className="text-f-secondary text-xl font-medium pt-5 ">
             Hi, my name is
           </h3>
@@ -20,7 +20,7 @@ const Hero = () => {
             I'm a self motivated
             <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block mx-2">
               <span className="relative text-white">full</span>
-            </span>{" "}
+            </span>
             stack developer who loves playing around with new technologies.
             Since it's also my favorite hobby, I find pure enjoyment in every
             facet of my work :)
