@@ -7,26 +7,26 @@ const Navbar = () => {
         <nav className=" w-[90%] max-w-7xl mx-auto py-6 flex items-center justify-between  ">
           <h3 className="hover:cursor-pointer">
             <Link to="home" smooth={true}>
-              <img src={Logo} alt="brand logo" className="w-12" />
+              <img src={Logo} alt="brand logo" className="w-10" />
             </Link>
           </h3>
           <ul className="flex items-center gap-8 md:gap-11 md:text-xl font-medium">
-            <li className="hover:cursor-pointer">
+            <li className="hover:cursor-pointer hover:underline">
               <Link to="about" smooth={true}>
                 About
               </Link>
             </li>
-            <li className="hover:cursor-pointer">
+            <li className="hover:cursor-pointer hover:underline">
               <Link to="skills" smooth={true}>
                 Skills
               </Link>
             </li>
-            <li className="hover:cursor-pointer">
+            <li className="hover:cursor-pointer hover:underline">
               <Link to="projects" smooth={true}>
                 Projects
               </Link>
             </li>
-            <li className="hover:cursor-pointer">
+            <li className="hover:cursor-pointer hover:underline">
               <Link to="contact" smooth={true}>
                 Contact
               </Link>

@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import Avatar from "../assets/avatar.png";
 import {
   AiOutlineGithub,
@@ -10,7 +11,15 @@ const Hero = () => {
   return (
     <main className="bg-primary pt-40 md:pt-8">
       <section className="w-[90%] min-h-screen max-w-7xl mx-auto   md:flex  justify-between items-center">
-        <div>
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, x: -50 },
+            visible: { opacity: 1, x: 0 },
+          }}>
           <h3 className="text-f-secondary text-xl font-medium pt-5 ">
             Hi, my name is
           </h3>
@@ -33,8 +42,16 @@ const Hero = () => {
               </button>
             </Link>
           </div>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, x: 50 },
+            visible: { opacity: 1, x: 0 },
+          }}>
           <div className=" max-w-xl mb-4">
             <img
               src={Avatar}
@@ -56,7 +73,7 @@ const Hero = () => {
               className="hover:cursor-pointer hover:-translate-y-1 duration-300"
             />
           </div>
-        </div>
+        </motion.div>
       </section>
     </main>
   );

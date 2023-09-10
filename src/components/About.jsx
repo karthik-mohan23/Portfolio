@@ -1,6 +1,14 @@
+import { motion } from "framer-motion";
 import { AiFillHeart } from "react-icons/ai";
 import profilePhoto from "../assets/insta.png";
-
+const container = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.2,
+    },
+  },
+};
 const About = () => {
   return (
     <section name="about" className="bg-primary py-24">

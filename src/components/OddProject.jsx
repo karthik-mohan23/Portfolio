@@ -1,11 +1,40 @@
-const OddProject = ({ title, subTitle, img, description, technologies }) => {
+import { motion } from "framer-motion";
+
+const OddProject = ({
+  title,
+  subTitle,
+  img,
+  description,
+  technologies,
+  liveLink,
+  codeLink,
+}) => {
   return (
-    <div className="flex flex-wrap justify-between  max-w-5xl mx-auto mb-10">
-      <div className="w-80 h-48 border  border-f-primary "></div>
-      <div>
-        <h1>{title}</h1>
-        <h4>{subTitle}</h4>
-        <p>{description}</p>
+    <div className="w-[90%] mx-auto lg:flex gap-5  justify-between max-w-6xl">
+      <div className="mx-auto mb-8 lg:mb-0">
+        <div className="max-w-sm     ">
+          <img src={img} alt="project " className="w-full h-full pb-5" />
+          <div className="flex items-center justify-center gap-4">
+            <a
+              href={liveLink}
+              target="_blank"
+              className="cursor-pointer hover:underline">
+              live
+            </a>
+            <a
+              href={codeLink}
+              target="_blank"
+              className="cursor-pointer hover:underline">
+              code
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="">
+        <h1 className="text-4xl md:text-5xl font-semibold mb-4">{title}</h1>
+        <h4 className="font-medium text-xl mb-2">{subTitle}</h4>
+        <p className="mb-4 ">{description}</p>
         <p>
           {technologies.map((tech) => (
             <span key={tech}>{tech}</span>
