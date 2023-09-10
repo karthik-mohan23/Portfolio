@@ -10,7 +10,7 @@ const Projects = () => {
         <h2 className="text-3xl md:text-5xl text-f-primary font-semibold pb-6">
           Projects
         </h2>
-        <div className="lg:py-10">
+        <div className="lg:pt-10">
           <motion.div
             className="py-10 bg-violet-300 rounded-md mb-20"
             initial="hidden"

@@ -9,7 +9,7 @@ import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
-    <main className="bg-primary pt-40 md:pt-8">
+    <main className="bg-primary pt-24 md:pt-8">
       <section className="w-[90%] min-h-screen max-w-7xl mx-auto   md:flex  justify-between items-center">
         <motion.div
           initial="hidden"
@@ -44,6 +44,7 @@ const Hero = () => {
           </div>
         </motion.div>
         <motion.div
+          className="pt-16 md:pt-0"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
