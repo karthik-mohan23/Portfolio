@@ -13,8 +13,8 @@ const OddProject = ({
     <div className="w-[90%] mx-auto lg:flex gap-5  justify-between max-w-6xl">
       <div className="mx-auto mb-8 lg:mb-0">
         <div className="max-w-sm     ">
-          <img src={img} alt="project " className="w-full h-full pb-5" />
-          <div className="flex items-center justify-center gap-4">
+          <img src={img} alt="project " className="w-full h-full  " />
+          <div className="pt-5 flex items-center justify-center gap-4">
             <a
               href={liveLink}
               target="_blank"

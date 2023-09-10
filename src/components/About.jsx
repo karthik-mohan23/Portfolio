@@ -25,8 +25,8 @@ const About = () => {
               <h3 className="text-[1rem] font-medium md:text-2xl">
                 Karthik Mohan
               </h3>
-              <p className=" flex items-center gap-2">
-                <AiFillHeart className="text-red-500" />
+              <p className=" flex gap-1">
+                <AiFillHeart className="text-red-500 mt-[2px]" size={20} />
                 <span className="text-f-secondary font-light ">
                   liked by <span className="underline font-normal">you</span>{" "}
                   and 23 others
