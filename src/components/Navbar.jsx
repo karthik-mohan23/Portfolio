@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <header className="bg-primary">
       <div className="fixed top-0 left-0 z-10  bg-primary w-full">
-        <nav className=" w-[90%] max-w-7xl mx-auto py-6 flex items-center justify-between ">
+        <nav className=" w-[90%] max-w-7xl mx-auto py-3 md:py-5 flex items-center justify-between ">
           <h3 className="hover:cursor-pointer">
             <Link to="home" smooth={true}>
               <img src={Logo} alt="brand logo" className="w-10" />
