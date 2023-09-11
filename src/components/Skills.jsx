@@ -8,7 +8,7 @@ const Skills = () => {
         <h2 className="text-3xl md:text-5xl text-f-primary font-semibold pb-6">
           Skills
         </h2>
-        <div className="border border-f-primary rounded-lg px-10 bg-secondary grid">
+        <div className="border border-f-primary rounded-lg px-5 md:px-10 bg-secondary grid">
           <div className="grid grid-cols-3 justify-items-center md:grid-cols-3 lg:grid-cols-5 gap-y-14 py-10 md:py-20">
             {technologies.map((tech, index) => {
               return (

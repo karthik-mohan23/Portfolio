@@ -12,7 +12,7 @@ const Projects = () => {
         </h2>
         <div className="lg:pt-10">
           <motion.div
-            className="py-10 bg-violet-300 rounded-md mb-20"
+            className="py-10 bg-gradient-to-r  from-violet-500 to-violet-300 rounded-md mb-20"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
@@ -38,7 +38,7 @@ const Projects = () => {
           </motion.div>
 
           <motion.div
-            className="py-10 bg-yellow-200 rounded-md mb-20"
+            className="py-10 bg-gradient-to-r  from-yellow-200 to-yellow-300 rounded-md mb-20"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}

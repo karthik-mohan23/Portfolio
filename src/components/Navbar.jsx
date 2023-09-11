@@ -4,13 +4,13 @@ const Navbar = () => {
   return (
     <header className="bg-primary">
       <div className="fixed top-0 left-0 z-10  bg-primary w-full">
-        <nav className=" w-[90%] max-w-7xl mx-auto  py-5 flex items-center justify-between ">
+        <nav className=" w-[95%] max-w-7xl mx-auto  py-5 flex items-center justify-between ">
           <h3 className="hover:cursor-pointer">
             <Link to="home" smooth={true}>
               <img src={Logo} alt="brand logo" className="w-10" />
             </Link>
           </h3>
-          <ul className="flex items-center gap-4 md:gap-11 md:text-xl font-medium">
+          <ul className="flex items-center gap-2 md:gap-11 md:text-xl font-medium">
             <li className="hover:cursor-pointer hover:underline">
               <Link to="about" smooth={true}>
                 About
