@@ -43,15 +43,16 @@ const Hero = () => {
             </Link>
           </div>
         </motion.div>
+
         <motion.div
           className="pt-16 md:pt-0"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 0.5 }}
+          transition={{ delay: 0.4, duration: 0.5 }}
           variants={{
-            hidden: { opacity: 0, x: 50 },
-            visible: { opacity: 1, x: 0 },
+            hidden: { opacity: 0, y: 50 },
+            visible: { opacity: 1, y: 0 },
           }}>
           <div className=" max-w-xl mb-4">
             <img

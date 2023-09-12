@@ -22,7 +22,7 @@ const Skills = () => {
                     hidden: { opacity: 0, y: 50 },
                     visible: { opacity: 1, y: 0 },
                   }}>
-                  <div className="mb-4 border-2 md:border-[3px] border-f-primary  rounded-lg p-5 h-20 md:h-32">
+                  <div className="mb-4 border-[1px] md:border-[3px] border-f-primary  rounded-lg p-1 md:p-5 h-20 md:h-32">
                     <img src={tech.image} alt={tech.title} />
                   </div>
                   <p className="text-center font-semibold md:text-xl">
