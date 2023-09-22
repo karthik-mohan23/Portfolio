@@ -24,8 +24,7 @@ const Projects = () => {
             <OddProject
               img={iCraveImg}
               title="iCrave"
-              subTitle="food delivery app that lets you order your favorite food"
-              description="A food delivery app made with config driven ui using swiggy's live API"
+              subTitle="A food delivery app that lets you order your favorite food made with config driven UI using Swiggy's live API"
               technologies={[
                 "React",
                 "Tailwind",

@@ -3,8 +3,7 @@ const EvenProject = ({ title, subTitle, img, description, technologies }) => {
     <div className="w-[90%] mx-auto lg:flex gap-5  justify-between max-w-6xl">
       <div className="mx-auto mb-8 lg:mb-0">
         <h1 className="text-4xl md:text-5xl font-semibold mb-4">{title}</h1>
-        <h4 className="font-medium text-xl mb-2">{subTitle}</h4>
-        <p className="mb-4 ">{description}</p>
+        <h4 className="font-medium text-xl mb-2 ">{subTitle}</h4>
         <p>
           {technologies.map((tech) => (
             <span key={tech}>{tech}</span>
