@@ -1,6 +1,5 @@
-import { motion } from "framer-motion";
 import { AiFillHeart } from "react-icons/ai";
-import profilePhoto from "../assets/insta.png";
+import Avatar from "../assets/avatar.png";
 const container = {
   hidden: {},
   visible: {
@@ -18,8 +17,8 @@ const About = () => {
         </h2>
         <div className="border border-f-primary rounded-lg px-2 md:px-10 bg-secondary">
           <div className="flex  border-b border-f-primary gap-2 py-7  items-center  lg:px-32">
-            <div className="w-20 md:w-32">
-              <img src={profilePhoto} alt="" />
+            <div className="w-20 ">
+              <img src={Avatar} alt="ptofile" />
             </div>
             <div>
               <h3 className="text-[1rem] font-medium md:text-2xl">
@@ -33,34 +32,23 @@ const About = () => {
                 />
                 <span className="text-f-secondary font-light ">
                   liked by <span className="underline font-normal">you</span>{" "}
-                  and 23 others
+                  and 123 others
                 </span>
               </p>
             </div>
           </div>
           <div className="py-8 px-2 md:px-5 lg:px-36 text-f-primary text-xl font-medium  leading-9">
             <p className="mb-2">
-              Welcome to my corner of the web! I'm a graduate in Electrical and
-              Electronics Engineering.
+              Welcome to my corner of the web! I'm an Electrical and Electronics
+              Engineering graduate with a passion for building beautiful,
+              performant, and secure web applications.
             </p>
             <p className="mb-2">
-              Ever since my young age, I've been fascinated by technology. So,
-              I've decided to take the leap and pursue a career in web
-              development.
+              I'm currently learning web development and I'm eager to contribute
+              to a team of experienced developers.
             </p>
             <p className="mb-2">
-              The unique combination of creativity, logic, technology, and the
-              never-ending stream of new discoveries drives my excitement and
-              passion for web development.
-            </p>
-            <p className="mb-2">
-              I enjoy solving problems and building things that looks beautiful
-              using code.
-            </p>
-            <p className="mb-2">
-              I look forward to learning and growing in order to build products
-              that are performant, secure, and have the power to enhance
-              people's lives.
+              I'm a team player and always willing to help others.
             </p>
             <p className="text-[1rem] text-blue-400">
               #music #football #yoga #gym #reading #drawing

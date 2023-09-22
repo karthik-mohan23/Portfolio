@@ -15,12 +15,17 @@ const Footer = () => {
             <p className="font-medium text-xl">Full Stack Developer</p>
           </div>
           <div>
-            <p className="mb-2">&copy; 2023 Karthik Mohan</p>
+            <p className="mb-4">
+              Made with Vite, React, Tailwind and Framer Motion
+            </p>
             <div className=" flex items-center md:justify-center gap-5 ">
-              <AiOutlineGithub
-                size={25}
-                className="hover:cursor-pointer hover:-translate-y-1 duration-300"
-              />
+              <a href="https://github.com/karthik-mohan23" target="_blank">
+                <AiOutlineGithub
+                  size={25}
+                  className="hover:cursor-pointer hover:-translate-y-1 duration-300"
+                />
+              </a>
+
               <AiFillLinkedin
                 size={25}
                 className="hover:cursor-pointer hover:-translate-y-1 duration-300"

@@ -12,11 +12,6 @@ const Navbar = () => {
           </h3>
           <ul className="flex items-center gap-2 md:gap-11 md:text-xl font-medium">
             <li className="hover:cursor-pointer hover:underline">
-              <Link to="about" smooth={true}>
-                About
-              </Link>
-            </li>
-            <li className="hover:cursor-pointer hover:underline">
               <Link to="skills" smooth={true}>
                 Skills
               </Link>
@@ -24,6 +19,11 @@ const Navbar = () => {
             <li className="hover:cursor-pointer hover:underline">
               <Link to="projects" smooth={true}>
                 Projects
+              </Link>
+            </li>
+            <li className="hover:cursor-pointer hover:underline">
+              <Link to="about" smooth={true}>
+                About
               </Link>
             </li>
             <li className="hover:cursor-pointer hover:underline">

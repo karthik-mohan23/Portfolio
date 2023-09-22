@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Avatar from "../assets/avatar.png";
+import illustration from "../assets/illustration.png";
 import {
   AiOutlineGithub,
   AiFillTwitterCircle,
@@ -10,7 +10,7 @@ import { Link } from "react-scroll";
 const Hero = () => {
   return (
     <main className="bg-primary pt-24 md:pt-8">
-      <section className="w-[90%] min-h-screen max-w-7xl mx-auto   md:flex  justify-between items-center">
+      <section className="w-[90%] min-h-screen max-w-6xl mx-auto   md:flex  justify-between items-center">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -31,9 +31,9 @@ const Hero = () => {
             <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block mx-2">
               <span className="relative text-white">full</span>
             </span>
-            stack developer who loves playing around with new technologies.
-            Since it's also my favorite hobby, I find pure enjoyment in every
-            facet of my work :)
+            stack developer who loves to build innovative and user-friendly
+            products. Since it's also my favorite hobby, I find pure enjoyment
+            in every facet of my work :)
           </p>
           <div className=" bg-f-primary text-xl   rounded-full border border-f-primary  relative w-40 h-14">
             <Link to="contact" smooth={true}>
@@ -54,26 +54,32 @@ const Hero = () => {
             hidden: { opacity: 0, y: 50 },
             visible: { opacity: 1, y: 0 },
           }}>
-          <div className=" max-w-xl mb-4">
+          <div className=" max-w-xs mb-8 md:mb-10 mx-auto">
             <img
-              src={Avatar}
+              src={illustration}
               alt=""
               className="w-full h-full block object-contain"
             />
           </div>
           <div className="flex items-center justify-center gap-12 ">
-            <AiOutlineGithub
-              size={30}
-              className="hover:cursor-pointer hover:-translate-y-1 duration-300"
-            />
-            <AiFillLinkedin
-              size={30}
-              className="hover:cursor-pointer hover:-translate-y-1 duration-300"
-            />
+            <a href="https://github.com/karthik-mohan23" target="_blank">
+              <AiOutlineGithub
+                size={30}
+                className="hover:cursor-pointer hover:-translate-y-1 duration-300 text-yellow-800"
+              />
+            </a>
+            <a href="https://github.com/karthik-mohan23" target="_blank">
+              <AiFillLinkedin
+                size={30}
+                className="hover:cursor-pointer hover:-translate-y-1 duration-300 text-yellow-800"
+              />
+            </a>
+            {/* <a href="#" target="_blank"> */}
             <AiFillTwitterCircle
               size={30}
-              className="hover:cursor-pointer hover:-translate-y-1 duration-300"
+              className="hover:cursor-pointer hover:-translate-y-1 duration-300 text-yellow-800"
             />
+            {/* </a> */}
           </div>
         </motion.div>
       </section>

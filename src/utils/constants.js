@@ -6,6 +6,7 @@ import reactjs from "../assets/react.png";
 import node from "../assets/node.png";
 import express from "../assets/express.png";
 import mongoDB from "../assets/mongodb.png";
+import postman from "../assets/postman.png";
 import figma from "../assets/figma.png";
 
 export const technologies = [
@@ -17,5 +18,6 @@ export const technologies = [
   { image: node, title: "Node" },
   { image: express, title: "Express" },
   { image: mongoDB, title: "MongoDB" },
+  { image: postman, title: "Postman" },
   { image: figma, title: "Figma" },
 ];
