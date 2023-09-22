@@ -37,7 +37,7 @@ const Projects = () => {
             />
           </motion.div>
 
-          <motion.div
+          {/* <motion.div
             className="py-10 bg-gradient-to-r  from-yellow-200 to-yellow-300 rounded-md mb-20"
             initial="hidden"
             whileInView="visible"
@@ -53,7 +53,7 @@ const Projects = () => {
               description="build your own create-react-app"
               technologies={["React"]}
             />
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </section>
