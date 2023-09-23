@@ -16,7 +16,7 @@ const About = () => {
           About me
         </h2>
         <div className="border border-f-primary rounded-lg px-2 md:px-10 bg-secondary">
-          <div className="flex  border-b border-f-primary gap-2 py-7  items-center  lg:px-32">
+          <div className="flex  border-b border-f-primary gap-2 py-7 px-2  items-center  lg:px-36">
             <div className="w-20 ">
               <img src={Avatar} alt="ptofile" />
             </div>
