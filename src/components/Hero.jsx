@@ -68,18 +68,20 @@ const Hero = () => {
                 className="hover:cursor-pointer hover:-translate-y-1 duration-300 text-yellow-800"
               />
             </a>
-            <a href="https://github.com/karthik-mohan23" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/karthik-mohan-23wd107"
+              target="_blank">
               <AiFillLinkedin
                 size={30}
                 className="hover:cursor-pointer hover:-translate-y-1 duration-300 text-yellow-800"
               />
             </a>
-            {/* <a href="#" target="_blank"> */}
-            <AiFillTwitterCircle
-              size={30}
-              className="hover:cursor-pointer hover:-translate-y-1 duration-300 text-yellow-800"
-            />
-            {/* </a> */}
+            <a href="https://twitter.com/KarthikMohan23" target="_blank">
+              <AiFillTwitterCircle
+                size={30}
+                className="hover:cursor-pointer hover:-translate-y-1 duration-300 text-yellow-800"
+              />
+            </a>
           </div>
         </motion.div>
       </section>

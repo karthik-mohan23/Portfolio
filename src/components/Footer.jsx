@@ -25,15 +25,20 @@ const Footer = () => {
                   className="hover:cursor-pointer hover:-translate-y-1 duration-300"
                 />
               </a>
-
-              <AiFillLinkedin
-                size={25}
-                className="hover:cursor-pointer hover:-translate-y-1 duration-300"
-              />
-              <AiFillTwitterCircle
-                size={25}
-                className="hover:cursor-pointer hover:-translate-y-1 duration-300"
-              />
+              <a
+                href="https://www.linkedin.com/in/karthik-mohan-23wd107"
+                target="_blank">
+                <AiFillLinkedin
+                  size={25}
+                  className="hover:cursor-pointer hover:-translate-y-1 duration-300"
+                />
+              </a>
+              <a href="https://twitter.com/KarthikMohan23" target="_blank">
+                <AiFillTwitterCircle
+                  size={25}
+                  className="hover:cursor-pointer hover:-translate-y-1 duration-300"
+                />
+              </a>
             </div>
           </div>
         </div>
