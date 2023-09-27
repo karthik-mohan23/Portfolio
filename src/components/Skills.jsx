@@ -9,7 +9,7 @@ const Skills = () => {
           Skills
         </h2>
         <div className="border border-f-primary rounded-lg px-5 md:px-10 bg-secondary grid">
-          <div className="grid grid-cols-3 justify-items-center md:grid-cols-3 lg:grid-cols-5 gap-y-14 py-10 md:py-20">
+          <div className="grid grid-cols-2 justify-items-center  sm:grid-cols-3 lg:grid-cols-5 gap-y-14 py-10 md:py-20">
             {technologies.map((tech, index) => {
               return (
                 <motion.div
