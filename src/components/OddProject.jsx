@@ -34,7 +34,7 @@ const OddProject = ({
       <div className="">
         <h1 className="text-4xl md:text-5xl font-semibold mb-4">{title}</h1>
         <h4 className="font-medium text-xl mb-4">{subTitle}</h4>
-        <p className="flex gap-2">
+        <p className="flex gap-2 flex-wrap">
           {technologies.map((tech) => (
             <span
               key={tech}
