@@ -13,6 +13,7 @@ const Skills = () => {
             {technologies.map((tech, index) => {
               return (
                 <motion.div
+                  key={index}
                   className="w-20 md:w-32"
                   initial="hidden"
                   whileInView="visible"

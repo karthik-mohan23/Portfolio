@@ -12,8 +12,8 @@ const OddProject = ({
   return (
     <div className="w-[90%] mx-auto lg:flex gap-16  justify-between max-w-6xl">
       <div className="mx-auto mb-8 lg:mb-0">
-        <div className="max-w-sm     ">
-          <img src={img} alt="project " className="w-full h-full  " />
+        <div className="max-w-md">
+          <img src={img} alt="project " className="w-full h-full  py-2" />
           <div className="pt-5 flex items-center justify-center gap-4">
             <a
               href={liveLink}
@@ -38,7 +38,7 @@ const OddProject = ({
           {technologies.map((tech) => (
             <span
               key={tech}
-              className="border border-blue-300 bg-gray-300 rounded-md p-1 font-semibold">
+              className="border border-blue-300 bg-gray-200 rounded-md p-1 font-semibold">
               {tech}
             </span>
           ))}
