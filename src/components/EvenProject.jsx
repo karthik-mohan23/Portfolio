@@ -11,7 +11,7 @@ const EvenProject = ({
     <div className="w-[90%] mx-auto lg:flex gap-5  justify-between max-w-6xl">
       <div className=" mb-8 lg:mb-0">
         <h1 className="text-4xl md:text-5xl font-semibold mb-4">{title}</h1>
-        <h4 className="font-medium text-xl mb-2 ">{subTitle}</h4>
+        <h4 className="font-medium text-xl mb-4 ">{subTitle}</h4>
         <p className="flex gap-2 flex-wrap">
           {technologies.map((tech) => (
             <span
@@ -22,9 +22,9 @@ const EvenProject = ({
           ))}
         </p>
       </div>
-      <div className="max-w-sm   me-10   ">
-        <img src={img} alt="project " className="w-full h-full py-2" />
-        <div className=" flex items-center justify-center gap-4">
+      <div className="max-w-sm   me-10 pb-6  ">
+        <img src={img} alt="project " className="w-full h-full pb-2 " />
+        <div className=" flex items-center justify-center gap-4 mt-3">
           <a
             href={liveLink}
             target="_blank"
