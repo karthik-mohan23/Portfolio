@@ -55,7 +55,10 @@ const Navbar = () => {
                     <li
                       key={label}
                       className="hover:cursor-pointer hover:underline border border-b-black py-3 ps-2 text-xl hover:text-yellow-700 hover:ps-3 duration-300">
-                      <Link to={href} smooth={true}>
+                      <Link
+                        to={href}
+                        smooth={true}
+                        onClick={() => setIsActive(false)}>
                         {label}
                       </Link>
                     </li>
