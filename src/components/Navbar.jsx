@@ -13,11 +13,14 @@ const Navbar = () => {
       <div className="fixed top-0 left-0 z-10  bg-primary w-full">
         <nav className=" w-[95%] max-w-7xl mx-auto  py-5  ">
           <div className="flex items-center gap-10 justify-between">
-            <h3 className="hover:cursor-pointer">
-              <Link to="home" smooth={true}>
-                <img src={Logo} alt="brand logo" className="w-10" />
-              </Link>
-            </h3>
+            <Link
+              to="home"
+              smooth={true}
+              onClick={() => setIsActive(false)}
+              className="hover:cursor-pointer">
+              <img src={Logo} alt="brand logo" className="w-10" />
+            </Link>
+
             <ul className="hidden md:flex items-center  text-xl gap-7  font-medium ">
               {navLinks.map(({ href, label }) => {
                 return (
