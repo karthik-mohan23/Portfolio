@@ -18,7 +18,6 @@ const Navbar = () => {
                 <img src={Logo} alt="brand logo" className="w-10" />
               </Link>
             </h3>
-            {/* <ul className="flex items-center gap-5 sm:gap-7  md:gap-11 sm:text-xl font-medium"> */}
             <ul className="hidden md:flex items-center  text-xl gap-7  font-medium ">
               {navLinks.map(({ href, label }) => {
                 return (
