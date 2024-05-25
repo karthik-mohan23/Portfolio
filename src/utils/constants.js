@@ -21,3 +21,10 @@ export const technologies = [
   { image: postman, title: "Postman" },
   { image: figma, title: "Figma" },
 ];
+
+export const navLinks = [
+  { href: "skills", label: "Skills" },
+  { href: "projects", label: "Projects" },
+  { href: "about", label: "About" },
+  { href: "contact", label: "Contact" },
+];
